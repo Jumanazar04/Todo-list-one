@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.yellowText {
+    color: rgb(255, 174, 0);
+
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+    padding: 20px;
+}
+input, button {
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 10px ;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    background-color: rgb(255, 174, 0);
+    color: #fff;
+}
+
+.warning {
+    border: 2px solid red;
+}
+
+table {
+    max-width: 500px;
+    
+}
